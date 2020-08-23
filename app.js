@@ -7,7 +7,7 @@ app.set("views", "./views");
 app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
-  res.render(`The port is ${port}`);
+  res.render('index');
 });
 
 app.listen(port, () => {
